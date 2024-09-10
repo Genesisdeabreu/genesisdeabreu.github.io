@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(235, 220, 246);
+    text-align: center;
+    padding: 25px 0;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    line-height: 2;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: rgb(238, 165, 242);
+    color: #fff;
+}
+
+section {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color:blueviolet;
+    background-color: #fff;
+}
+
+th {
+    font-size: 25px;
+    background-color: rgb(238, 165, 242);
+    color:#696969;
+}
+
+td {
+    color: #696969;
+    background-color: #fff;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(238, 165, 242);
+    color: #696969;
+    margin-top: 20px;
+}
